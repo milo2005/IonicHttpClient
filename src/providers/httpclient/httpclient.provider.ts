@@ -1,8 +1,6 @@
-import {Injectable} from '@angular/core';
 import {Http, Response, RequestOptions, Headers} from "@angular/http"
 import {Observable}  from "rxjs/observable"
 
-@Injectable()
 export class HttpClient {
 
     constructor(private http:Http){
