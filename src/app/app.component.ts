@@ -4,9 +4,6 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 
-import "rxjs/add/observable/throw ";
-import "rxjs/add/operator/map";
-import "rxjs/add/operator/catch";
 
 @Component({
   template: `<ion-nav [root]="rootPage"></ion-nav>`
