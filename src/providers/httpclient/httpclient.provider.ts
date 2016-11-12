@@ -3,10 +3,8 @@ import {Observable}  from "rxjs/observable"
 
 export class HttpClient {
 
-    constructor(private http:Http){
-
-    }
-
+    http:Http;
+    
     protected get(url:string):Observable<Response>{
         return this.http.get(url);
     }

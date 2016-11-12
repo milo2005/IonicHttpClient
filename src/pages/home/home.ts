@@ -16,8 +16,9 @@ export class HomePage {
     , public provider: ClimaProvider
     , public toast: ToastController
   ) {
-    
-    this.provider.loadWeather().subscribe(this.loaded, this.showError);
+    this.clima = new Clima();
+    this.provider.loadWeather().subscribe((c)=> this.loaded(c)
+      ,(err)=> this.showError(err));
 
   }
 

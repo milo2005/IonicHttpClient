@@ -5,7 +5,7 @@ import { HomePage } from '../pages/home/home';
 
 import {HttpModule} from "@angular/http"
 
-import "rxjs/add/observable/throw ";
+import "rxjs/add/observable/throw";
 import "rxjs/add/operator/map";
 import "rxjs/add/operator/catch";
 
